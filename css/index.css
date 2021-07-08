@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.geral {
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: #478978;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* .logo h1 {
+  
+} */
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+}
+
+.logo h1 {
+  margin-right: auto;
+  text-align: left;
+}
+
+.geral main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d6edff;
+  height: 100%;
+}
+
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrossel img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 20%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.redesSociais a {
+  margin-right: 10px;
+}
