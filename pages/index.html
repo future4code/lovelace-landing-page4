@@ -13,36 +13,46 @@
 <body>
   <div class="geral">
     <header>
-      <div class="logo">
-        <h1>4Life</h1>
-        <h3>MORADIAS UNIVERSITARIAS</h3>
+      <div>
+        <img src="../img/jogo.jpg">
       </div>
       <nav>
-        <a target="_blank" href="http://www.facebook.com">Apartamentos</a>
-        <a target="_blank" href="http://www.instagram.com">Casas</a>
-        <a target="_blank" href="http://www.pinterest.com">Universidades</a>
+        <a target="_blank" href="./compartilhada.html">COMPARTILHADA</a>
+        <a target="_blank" href="./kitnet.html">KITNET</a>
       </nav>
     </header>
     <main>
-      <div class="carrossel">
-        <img src="../img/1.jpg" />
+      <div class="foto">
         <img src="../img/2.jpg" />
-        <img src="../img/3.jpg" />
       </div>
       <form class="formulario">
-        <label for="firstName" class="first-name">Cidade</label>
-        <input id="firstName" type="text">
-        <label for="lastName" class="last-name">Bairro</label>
-        <input id="lastName" type="text">
-        <label for="lastName" class="last-name">Aluguel ate</label>
-        <input id="lastName" type="text">
-        <label for="lastName" class="last-name">Quartos</label>
-        <input id="lastName" type="text">
+        <label for="firstName" class="itemFormulario">Estado</label>
+        <input id="firstName" type="text" placeholder="São Paulo">
+        <label for="firstName" class="itemFormulario">Cidade</label>
+        <input id="firstName" type="text" placeholder="Ribeirão Preto">
+        <label for="lastName" class="itemFormulario">Bairro</label>
+        <input id="lastName" type="text" placeholder="Pinheiros">
+        <label for="lastName" class="itemFormulario">Aluguel ate</label>
+        <input id="lastName" type="number" placeholder="R$ 3.500,00">
+        <select name="quartos" id="seletorQuartos">
+          <option value="">Quartos</option>
+          <option value="dog">1</option>
+          <option value="cat">2</option>
+          <option value="hamster">3</option>
+          <option value="parrot">4</option>
+          <option value="parrot">5 ou +</option>
+      </select>
+      <div class="botao">
+        <button id="botaoBuscar">Buscar</button>
+      </div>
       </form>
+      <div class="frase">
+        <h5>A 4Life realiza reformas e prepara moradias para recepção de pessoas universitárias<br> em um ambiente específico e otimizado para a vida de graduação. </h5>
+      </div>
     </main>
     <div class="footer">
       <div>
-        <h3>Alugando fast pra univerditarios desde 2021.</h3>
+        <h3 id="texto-footer">Alugando fast pra univerditarios desde 2021.</h3>
       </div>
       <div class="redesSociais">
         <a target="_blank" href="http://www.facebook.com">Facebook</a>

@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* CSS HEX */
+/* 
+--middle-blue-green: #84dcc6ff;
+--beau-blue: #d6edffff;
+--uranian-blue: #acd7ecff;
+--blue-bell: #8b95c9ff;
+--viridian: #478978ff; 
+*/
+
+.geral {
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: #478978;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #d6edff;
+  height: 100%;
+}
+
+.cards img {
+  width: 100px;
+  height: 100px;
+}
+
+#imagem {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: grid;
+
+}
+
+.imagemKitnet {
+  width: 100px;
+  height: 100px;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.redesSociais a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+}
+
+#texto-footer {
+  color: #84dcc6ff;
+}

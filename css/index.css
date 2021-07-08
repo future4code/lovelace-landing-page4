@@ -4,6 +4,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* CSS HEX */
+/* 
+--middle-blue-green: #84dcc6ff;
+--beau-blue: #d6edffff;
+--uranian-blue: #acd7ecff;
+--blue-bell: #8b95c9ff;
+--viridian: #478978ff; 
+*/
+
 .geral {
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
@@ -20,15 +29,6 @@ header {
   justify-content: space-between;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-/* .logo h1 {
-  
-} */
-
 nav a {
   margin-right: 10px;
   text-decoration: none;
@@ -36,27 +36,53 @@ nav a {
   font-size: 1.5rem;
 }
 
-.logo h1 {
-  margin-right: auto;
-  text-align: left;
+#logo {
+  color: #acd7ecff;
 }
 
-.geral main {
+#subTitle {
+  color: #84dcc6ff;
+}
+
+#seletorQuartos {
+  margin-top: 20px;
+}
+
+#botaoBuscar {
+  margin-top: 20px;
+  width: 160px;
+  color: #478978ff;
+}
+
+main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #d6edff;
   height: 100%;
 }
 
-.carrossel {
+.frase {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.carrossel img {
-  max-width: 100px;
-  max-height: 100px;
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto img {
+  max-width: 600px;
+  max-height: 600px;
+  border: 10px solid #478978;
 }
 
 .formulario {
@@ -64,6 +90,11 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+}
+
+.itemFormulario {
+  margin-top: 10px;
 }
 
 .logo {
@@ -85,4 +116,11 @@ nav a {
 
 .redesSociais a {
   margin-right: 10px;
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+}
+
+#texto-footer {
+  color: #84dcc6ff;
 }
