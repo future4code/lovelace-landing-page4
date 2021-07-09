@@ -242,6 +242,10 @@ section > iframe {
     color: #84dcc6ff;
     text-align: center;
   }
+
+  footer {
+    background-color: gray;
+  }
 }
 
 /* ___________Desktop____________ */
@@ -408,11 +412,12 @@ section > iframe {
     max-width: 20%;
   }
   
-  .footer {
+  footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: gray;
   }
   
   h3 {
