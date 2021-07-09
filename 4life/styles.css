@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* CSS HEX */
+/* 
+--middle-blue-green: #84dcc6ff;
+--beau-blue: #d6edffff;
+--uranian-blue: #acd7ecff;
+--blue-bell: #8b95c9ff;
+--viridian: #478978ff; 
+*/
+
+.geral {
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  background-color: #478978;
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #478978;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #478978;
+}
+
+.card h4 {
+  color: #478978;
+}
+
+.card p {
+  color: #478978;
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  border: 2px solid #478978;
+  border-radius: 10px;
+}
+
+.itemFormulario {
+  color: #478978;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+
+}
+
+nav a:last-child {
+  margin-left: 30px;
+  margin-right: 70px;
+}
+
+.busca {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.compartilhada {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 100px;
+  height: 400px;
+}
+
+.kitnets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 100px;
+  height: 400px;
+}
+
+#seletorQuartos {
+  margin-top: 20px;
+}
+
+#botaoBuscar {
+  margin-top: 20px;
+  width: 160px;
+  color: #478978ff;
+}
+
+main {
+  background-color: #d6edff;
+}
+
+.frase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto img {
+  max-width: 600px;
+  max-height: 600px;
+  border: 10px solid #478978;
+  border-radius: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemFormulario {
+  margin-top: 10px;
+}
+
+.logo {
+  max-width: 20%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: gray;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.redesSociais a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #d6edff;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#texto-footer {
+  color: #84dcc6ff;
+}
