@@ -24,16 +24,37 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: #478978;
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #478978;
+}
+
+.card h4 {
+  color: #478978;
+}
+
+.card p {
+  color: #478978;
 }
 
 .card img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
+  border: 2px solid #478978;
+  border-radius: 10px;
+}
+
+.itemFormulario {
+  color: #478978;
 }
 
 header {
@@ -73,6 +94,7 @@ nav a:last-child {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-top: 100px;
+  height: 400px;
 }
 
 .kitnets {
@@ -80,6 +102,7 @@ nav a:last-child {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-top: 100px;
+  height: 400px;
 }
 
 #seletorQuartos {
@@ -119,6 +142,7 @@ main {
   max-width: 600px;
   max-height: 600px;
   border: 10px solid #478978;
+  border-radius: 10px;
 }
 
 .formulario {
@@ -143,7 +167,7 @@ main {
   justify-content: center;
 }
 
-h4 {
+h3 {
   color: gray;
 }
 
