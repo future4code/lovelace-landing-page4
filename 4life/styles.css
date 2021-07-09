@@ -26,20 +26,22 @@ html {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     background-color: #478978;
-    /* height: 100vh; */
   }
 
-  iframe {
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-.onde {
+#onde {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+
+section > iframe {
+  max-width: 300px;
+}
+
+.mapa {
+  max-width: 100%;
 }
 
 .onde h1 {
@@ -125,6 +127,7 @@ html {
     justify-items: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    gap: 10px;
   }
   
   .kitnets {
@@ -133,6 +136,7 @@ html {
     justify-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    gap: 10px;
   }
 
   .banner {
@@ -213,6 +217,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #478978;
   }
   
   h3 {
@@ -433,7 +438,7 @@ html {
   }
 }
 
-.onde {
+#onde {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,7 +451,7 @@ iframe {
   height: 600px;
 }
 
-.onde h1 {
+#onde h1 {
   color: #478978;
   padding: 10px;
   margin-bottom: 30px;
